@@ -1,0 +1,48 @@
+/* BACKGROUND */
+header {
+	position: absolute;
+	padding-top: 60px;
+	padding-left: 100px;
+	margin-top: -400px;
+	margin-left: -200px;
+}
+
+body {
+	background-color: #BCC7AD;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	padding-left: 300px;
+	padding-top: 400px;
+}
+
+/*TITLES*/
+.projectname{
+	color: #464A40;
+	font-size: 90px;
+	font-family: 'Rozha One', serif;
+}
+.description{
+	color: #FFFFFF;
+	font-size: 55px;
+	font-family: 'Rozha One', serif;
+}
+.image{
+	width: 80%;
+	height: 90%;
+}
+
+/*OVERLAY*/
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFFFFF;
+  opacity: 30%;
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements*/
+}
